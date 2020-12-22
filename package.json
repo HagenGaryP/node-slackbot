@@ -1,0 +1,27 @@
+{
+  "name": "node-slackbot",
+  "version": "1.0.0",
+  "description": "\"A simple Slackbot that displays random inspiring techie quotes for developers/designers\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HagenGaryP/node-slackbot.git"
+  },
+  "author": "Gary Hagen, using Bolaji Ayadeji's walkthrough on freeCodeCamp.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HagenGaryP/node-slackbot/issues"
+  },
+  "homepage": "https://github.com/HagenGaryP/node-slackbot#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "nodemon": "^2.0.6",
+    "slackbots": "^1.2.0"
+  }
+}
